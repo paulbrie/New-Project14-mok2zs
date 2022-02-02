@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+}
